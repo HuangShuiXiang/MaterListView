@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <com.materlistview.materListView.SuperSwipeRefresh
+        android:id="@+id/superSwipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_weight="1.0"
+        android:layout_height="match_parent">
+
+        <com.materlistview.materListView.MaterialListView
+            android:id="@+id/material_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.materlistview.materListView.MaterialListView>
+    </com.materlistview.materListView.SuperSwipeRefresh>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加卡片" />
+</LinearLayout>

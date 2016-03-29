@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.materlistview.cardModelView.RecycleViewLoadMoreItemView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+    <ProgressBar
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:id="@+id/bottom_progress_bar"
+        />
+</com.materlistview.cardModelView.RecycleViewLoadMoreItemView>
